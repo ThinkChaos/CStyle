@@ -1,6 +1,5 @@
 # Warning: This code warrants a rewrite
 
-from __future__ import print_function
 from re import compile
 from sys import argv
 

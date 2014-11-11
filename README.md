@@ -23,4 +23,3 @@ Requires Python 3.
 Adding cstyle to your path allows to run:
 
     $ python -m cstyle [files...]
-
