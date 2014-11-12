@@ -23,7 +23,9 @@ rules = [
                 AND(prev_line(ends_with('{')), NOT(starts_with('}'))),
                 NOT(indented)),
             AND(
-                AND(prev_line(NOT(OR(is_empty, ends_with('{')))), starts_with('}')),
+                AND(
+                    prev_line(NOT(OR(is_empty, ends_with('{')))),
+                    starts_with('}')),
                 NOT(unindented)))),
 
     ('dowhile',
